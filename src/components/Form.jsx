@@ -23,6 +23,7 @@ export default function Form() {
           placeholder="Buscar por ciudad"
           value={location}
           onChange={(e) => setLocation(e.target.value)}
+          autoFocus
           className="shadow appearance-none border rounded w-full py-2 px-3 mt-3 font-rubik bg-inputBg placeholder-gray-600 text-gray-800 leading-tight focus:outline-none focus:shadow-outline"
         />
         <button
